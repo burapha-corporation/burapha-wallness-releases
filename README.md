@@ -1,22 +1,13 @@
-# M2 Releases
+# M2 Releases (historical)
 
-Public Android APK distribution for the M2 healthcare suite.
+**Historical. Nothing has been published here since v1.0.0 (1 June 2026).**
 
-## Brands
+This repository holds one public release, [v1.0.0](https://github.com/burapha-corporation/burapha-wallness-releases/releases/tag/v1.0.0):
+two Android APKs of the white-label brands **M2 Wellness** (the patient app) and **Care Giver** (the
+caregiver app), built from one Expo / React Native codebase.
 
-- **M2 Wellness** — consumer/patient app (`com.ounrak.wellness`)
-- **Care Giver** — clinician/caregiver app (`com.ounrak.caregiver`)
+Both brands are **retired** (5 November 2026). The patient app is now **Ounrak Wellness**, developed in
+the private `apps/tele-mobile` of the Ounrak repository. It is not yet in an app store and is not
+distributed here.
 
-Both apps are built from a single codebase via white-label
-(`EXPO_PUBLIC_BRAND=wellness | caregiver`) and share the same HIMS
-backend. They can be installed side-by-side because the Android
-package IDs are distinct.
-
-## Downloads
-
-See [Releases](https://github.com/ounrak/m2-releases/releases) for the
-latest builds.
-
-## Source
-
-The source repository is private. Contact the Ounrak team for access.
+The APKs are kept as a record only and are not updated.
